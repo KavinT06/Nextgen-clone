@@ -18,11 +18,28 @@ import sec4_l1 from './assets/svg/sec4/Icon-1.svg';
 import sec4_l2 from './assets/svg/sec4/Icon-2.svg';
 import sec4_l3 from './assets/svg/sec4/Icon-3.svg';
 import sec5_1 from './assets/svg/sec5/pana.svg';
+import sec6_img from './assets/img/img1.png';
+import sec6_0 from './assets/svg/sec6/Logo-0.svg';
+import sec6_1 from './assets/svg/sec6/Logo-1.svg';
+import sec6_2 from './assets/svg/sec6/Logo-2.svg';
+import sec6_3 from './assets/svg/sec6/Logo-3.svg';
+import sec6_4 from './assets/svg/sec6/Logo-4.svg';
+import sec6_5 from './assets/svg/sec6/Logo-5.svg';
+import img1 from './assets/img/img2.png';
+import img2 from './assets/img/img3.png';
+import img3 from './assets/img/img4.png';
+import flogo from './assets/svg/footer/Logo.svg';
+import s1 from './assets/svg/footer/Social Icons.svg';
+import s2 from './assets/svg/footer/Social Icons-1.svg';
+import s3 from './assets/svg/footer/Social Icons-2.svg';
+import s4 from './assets/svg/footer/Social Icons-3.svg';
+import send from './assets/svg/footer/send.svg';
+
 
 export default function Page() {
     return (
         <>
-            <div className='h-20 lg:h-18 md:h-16 flex items-center justify-around text-lg'>
+            <div className='h-20 lg:h-18 md:h-16 flex items-center justify-around text-lg flex-wrap'>
                 <div className='mr-40 lg:mr-0 lg:ml-10 md:mr-0'>
                     <Image src={Logo} alt='Nextgen' />
                 </div>
@@ -102,14 +119,14 @@ export default function Page() {
                     <button className='bg-[#4caf4f] p-3 text-white font-medium rounded my-8'>Learn More</button>
                 </div>
             </section>
-            <section className='bg-[#f5f7fa]'>
+            <section className='bg-[#f5f7fa] flex-wrap'>
                 <div className='mx-auto max-w-7xl md:pb-16 md:p-6 pt-0 lg:px-10 lg:py-26 xl:py-25 text-[#4d4d4d]'>
                     <div className='grid grid-cols-2'>
                         <div>
                             <p className='font-medium text-4xl my-5'>Helping a local <br /> <span className='text-[#4caf4f]'>business reinvent itself </span></p>
                             <p>we reached here with our hard work and dedication</p>
                         </div>
-                        <div className='grid grid-cols-2 gap-5   items-center'>
+                        <div className='grid grid-cols-2 gap-5 items-center'>
                             <div className='grid grid-cols-2 w-5/6'>
                                 <Image src={sec4_l0} alt='l1' className='ml-15' />
                                 <div className='flex flex-col items-start'>
@@ -151,6 +168,115 @@ export default function Page() {
                         <h1 className='text-4xl mb-4 font-medium'>How to design your site footer like we did</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora rerum tempore voluptatibus perferendis eum reiciendis maiores illum distinctio dignissimos molestiae aut quas est unde, officiis quae reprehenderit asperiores magnam animi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit qui est impedit consequatur excepturi aliquam distinctio, eligendi modi quaerat provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laborum!</p>
                         <button className='bg-[#4caf4f] p-4 text-white font-medium rounded my-6'>Learn More</button>
+                    </div>
+                </div>
+            </section>
+            <section className='bg-[#f5f7fa] flex-wrap'>
+                <div className='mx-auto max-w-7xl md:pb-16 md:p-6 pt-0 lg:px-10 lg:py-26 xl:py-17 text-[#4d4d4d] grid grid-cols-3'>
+                    <div className='w-5/6 ml-5'>
+                        <Image src={sec6_img} alt='tesla' className='w-full' />
+                    </div>
+                    <div className='col-span-2'>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium quidem fugiat laboriosam eaque nam tempora culpa perferendis fugit, alias perspiciatis vitae, voluptatem sequi modi. Maxime possimus sapiente necessitatibus rem expedita obcaecati. Consequatur perspiciatis delectus molestiae iure, deleniti laboriosam accusantium fuga qui fugiat et nesciunt minima. Rerum veritatis neque nesciunt nemo nobis qui illo, numquam nisi, saepe doloremque quos minus facere quae cumque labore quia ea praesentium repellat. Totam unde, odit optio quae eum cupiditate repellat sapiente at explicabo harum sed reprehenderit minus, quis perferendis accusantium odio a soluta laborum laudantium. Minima pariatur vel possimus explicabo rerum tenetur libero repellendus magni.
+                        </p>
+                        <p className='text-[#4caf4f] font-medium text-xl mt-5 mb-2'>Tim Smith</p>
+                        <p className='mb-8'>British Dragon Boat Racing Association</p>
+                        <div className='flex gap-12'>
+                            <Image src={sec6_0} alt='svg1' />
+                            <Image src={sec6_1} alt='svg2' />
+                            <Image src={sec6_2} alt='svg3' />
+                            <Image src={sec6_3} alt='svg4' />
+                            <Image src={sec6_4} alt='svg5' />
+                            <Image src={sec6_5} alt='svg6' />
+                            <p className='flex items-center text-[#4caf4f] font-semibold text-xl'>Meet all customers <FontAwesomeIcon icon={faArrowRight} className='w-5 ml-1 mt-1 md:ml-1.5' /> </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className='mx-auto max-w-7xl md:pb-16 md:p-6 pt-0 lg:px-10 lg:py-26 xl:py-24'>
+                    <h1 className='text-3xl text-center'>Caring is the new marketing</h1>
+                    <p className='text-center my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laudantium quae culpa similique dolores voluptate commodi quos, cumque impedit harum cum sint sunt? Doloremque non mollitia deserunt odit, cum accusantium sed aut harum iure, pariatur quos esse nostrum perferendis dicta cumque? Fuga quae esse harum nam quasi animi minus natus?</p>
+                    <div className='grid grid-cols-3 text-[#4d4d4d]'>
+                        <div className='relative'>
+                            <div>
+                                <Image src={img1} alt='img1' />
+                            </div>
+                            <div className='bg-[#f5f7fa] w-80 h-40 absolute -bottom-6 left-3 rounded-xl px-10'>
+                                <p className='text-center text-lg font-semibold'>Creating Streamlined Safeguard Processes With OneRen</p>
+                                <p className='flex items-center justify-center my-5 text-[#4caf4f] font-semibold text-xl'>ReadMore <FontAwesomeIcon icon={faArrowRight} className='w-5 ml-1 mt-1 md:ml-1.5' /> </p>
+                            </div>
+                        </div>
+                        <div className='relative'>
+                            <div>
+                                <Image src={img2} alt='img2' />
+                            </div>
+                            <div className='bg-[#f5f7fa] w-80 h-40 absolute -bottom-6 left-3 rounded-xl px-10'>
+                                <p className='text-center text-lg font-semibold'>What are your safeguarding responsibilities and how can you manage them?</p>
+                                <p className='flex items-center justify-center my-5 text-[#4caf4f] font-semibold text-xl'>ReadMore <FontAwesomeIcon icon={faArrowRight} className='w-5 ml-1 mt-1 md:ml-1.5' /> </p>
+                            </div>
+                        </div>
+                        <div className='relative'>
+                            <div>
+                                <Image src={img3} alt='img3' />
+                            </div>
+                            <div className='bg-[#f5f7fa] w-80 h-40 absolute -bottom-6 left-3 rounded-xl px-10'>
+                                <p className='text-center text-lg font-semibold'>Revamping the Membership Model with Triathlon Australia</p>
+                                <p className='flex items-center justify-center my-5 text-[#4caf4f] font-semibold text-xl'>ReadMore <FontAwesomeIcon icon={faArrowRight} className='w-5 ml-1 mt-1 md:ml-1.5' /> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className='mx-auto max-w-7xl md:pb-16 md:p-6 pt-0 lg:px-10 lg:py-26 xl:py-12'>
+                    <p className='text-6xl text-center leading-tight font-bold'>pellentesque suscipit <br /> fringilla libero eu.</p>
+                    <div className='flex justify-center my-5'><button className='bg-[#4caf4f] p-4 text-white font-medium rounded my-6 flex items-center'>Get a Demo <FontAwesomeIcon icon={faArrowRight} className='w-5 ml-1 mt-1 md:ml-1.5' /></button></div>
+                </div>
+            </section>
+            <section className='bg-[#263238] text-white'>
+                <div className='mx-auto max-w-7xl md:pb-16 md:p-6 pt-0 lg:px-10 lg:py-26 xl:py-17'>
+                    <div className='grid grid-cols-4 gap-28 flex-wrap'>
+                        <div>
+                            <Image src={flogo} alt='Footer logo' />
+                            <div className='my-10'>
+                                <p>Copyright © 2020 Nexcent ltd.</p>
+                                <p className='mb-8'>All rights reserved</p>
+                                <div className='flex gap-6'>
+                                    <Image src={s1} alt='social Icons' />
+                                    <Image src={s2} alt='social Icons' />
+                                    <Image src={s3} alt='social Icons' />
+                                    <Image src={s4} alt='social Icons' />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='ml-20'>
+                            <p className='text-xl font-bold'>Company</p>
+                            <div className='leading-loose my-5'>
+                                <p>About us</p>
+                                <p>Blog</p>
+                                <p>Contact us</p>
+                                <p>Pricing</p>
+                                <p>Testimonials</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p className='text-xl font-bold'>Support</p>
+                            <div className='leading-loose my-5'>
+                                <p>Help center</p>
+                                <p>Terms of service</p>
+                                <p>Legal</p>
+                                <p>Privacy policy</p>
+                                <p>Status</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p className='text-xl font-bold'>Stay up to date</p>
+                            <div className='relative'>
+                                <input type="text" placeholder='Your email address' className='bg-[#515b60] w-full px-1 rounded-md my-5' />
+                                <Image src={send} alt='send' className='absolute bottom-5.5 left-48' />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
