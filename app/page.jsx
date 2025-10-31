@@ -197,30 +197,30 @@ export default function Page() {
                 <div className='mx-auto max-w-7xl md:pb-16 md:p-6 pt-0 lg:px-10 lg:py-26 xl:py-24'>
                     <h1 className='text-3xl text-center'>Caring is the new marketing</h1>
                     <p className='text-center my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laudantium quae culpa similique dolores voluptate commodi quos, cumque impedit harum cum sint sunt? Doloremque non mollitia deserunt odit, cum accusantium sed aut harum iure, pariatur quos esse nostrum perferendis dicta cumque? Fuga quae esse harum nam quasi animi minus natus?</p>
-                    <div className='grid grid-cols-3 text-[#4d4d4d]'>
+                    <div className='grid grid-cols-3 gap-6 text-[#4d4d4d]'>
                         <div className='relative'>
                             <div>
-                                <Image src={img1} alt='img1' />
+                                <Image src={img1} alt='img1' className='w-full' />
                             </div>
-                            <div className='bg-[#f5f7fa] w-80 h-40 absolute -bottom-6 left-3 rounded-xl px-10'>
+                            <div className='bg-[#f5f7fa] w-80 h-40 absolute left-1/2 -bottom-12 -translate-x-1/2 rounded-xl px-10 pt-2'>
                                 <p className='text-center text-lg font-semibold'>Creating Streamlined Safeguard Processes With OneRen</p>
                                 <p className='flex items-center justify-center my-5 text-[#4caf4f] font-semibold text-xl'>ReadMore <FontAwesomeIcon icon={faArrowRight} className='w-5 ml-1 mt-1 md:ml-1.5' /> </p>
                             </div>
                         </div>
                         <div className='relative'>
                             <div>
-                                <Image src={img2} alt='img2' />
+                                <Image src={img2} alt='img2' className='w-full' />
                             </div>
-                            <div className='bg-[#f5f7fa] w-80 h-40 absolute -bottom-6 left-3 rounded-xl px-10'>
+                            <div className='bg-[#f5f7fa] w-80 h-40 absolute left-1/2 -bottom-12 -translate-x-1/2 rounded-xl px-10 pt-2'>
                                 <p className='text-center text-lg font-semibold'>What are your safeguarding responsibilities and how can you manage them?</p>
                                 <p className='flex items-center justify-center my-5 text-[#4caf4f] font-semibold text-xl'>ReadMore <FontAwesomeIcon icon={faArrowRight} className='w-5 ml-1 mt-1 md:ml-1.5' /> </p>
                             </div>
                         </div>
                         <div className='relative'>
                             <div>
-                                <Image src={img3} alt='img3' />
+                                <Image src={img3} alt='img3' className='w-full' />
                             </div>
-                            <div className='bg-[#f5f7fa] w-80 h-40 absolute -bottom-6 left-3 rounded-xl px-10'>
+                            <div className='bg-[#f5f7fa] w-80 h-40 absolute left-1/2 -bottom-12 -translate-x-1/2 rounded-xl px-10 pt-2'>
                                 <p className='text-center text-lg font-semibold'>Revamping the Membership Model with Triathlon Australia</p>
                                 <p className='flex items-center justify-center my-5 text-[#4caf4f] font-semibold text-xl'>ReadMore <FontAwesomeIcon icon={faArrowRight} className='w-5 ml-1 mt-1 md:ml-1.5' /> </p>
                             </div>
